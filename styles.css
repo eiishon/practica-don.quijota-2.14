@@ -1,0 +1,43 @@
+h1, h2, hr{
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    html{
+        text-align: justify;
+        color: lightgoldenrodyellow;
+        background-color: lightcoral;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1000px){
+    html{
+        text-align: justify;
+        color: darkblue;
+        background-color: lightgreen;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1400px){
+    html{
+        text-align: justify;
+        color: firebrick;
+        background-color: lightskyblue;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+@media screen and (min-width: 1401px){
+    html{
+        text-align: justify;
+        color: firebrick;
+        background-color: lightpink;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
